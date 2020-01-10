@@ -33,5 +33,11 @@ class ListMock {
 		list.get(0);
 	}
 	
+	@Test()
+	void testListCheckJenkin() {
+		List list = mock(List.class);
+		when(list.contains("Ajit")).thenReturn(false);
+		list.get(0);
+	}
 
 }
