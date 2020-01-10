@@ -9,15 +9,11 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.junit.runner.RunWith;
+
 import com.todo.sample.ToDoService;
 import com.todo.sample.impl.TodoBusinessImpl;
 
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
 class TodoServiceTest {
 	
 //	@Mock
